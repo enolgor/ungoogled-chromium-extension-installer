@@ -9,7 +9,7 @@ To build this extension just run: `npm install` and `npm run build`. Or you can 
 
 ### Install
 
-- Download or build the .crx file
+- [Download](https://github.com/enolgor/ungoogled-chromium-extension-installer/releases) or build the .crx file
 - Follow the instructions in the [FAQ](https://ungoogled-software.github.io/ungoogled-chromium-wiki/faq#installing-the-crx-file) of Ungoogled Chromium, but it should be as simple as opening `chrome://extensions` and drag-and-drop the crx file.
 
 ### Usage
