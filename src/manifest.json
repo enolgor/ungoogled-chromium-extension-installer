@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Ungoogled Chromium Extension Installer",
+  "version": "1.0",
+  "description": "Downloads and installs CRX file by the gist that was posted in https://github.com/Eloston/ungoogled-chromium/issues/226",
+  "permissions": [
+    "contextMenus",
+    "https://chrome.google.com/webstore/detail/*"
+  ],
+  "background": {
+    "scripts": ["menu.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chrome.google.com/webstore/detail/*"],
+      "js": ["webstore.js", "gist_wrapper.js"]
+    }
+  ]
+}

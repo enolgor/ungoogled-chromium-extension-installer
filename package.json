@@ -1,0 +1,14 @@
+{
+  "name": "ungoogled-chromium-extension-installer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "crx": "^5.0.0",
+    "node-rsa": "^1.0.5"
+  }
+}
